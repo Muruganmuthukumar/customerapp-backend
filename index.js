@@ -25,6 +25,6 @@ app.use('/api/users', userRouter)
 app.use('/api/admin', adminRouter)
 app.use('/api/orders', orderRouter)
 
-app.listen(proccess.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server is running on port 5000");
 })
